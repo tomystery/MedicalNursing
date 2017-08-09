@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*section1 样式开始 */
+.section1{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.section1-wrap{
+    padding: 10px 10px 20px 20px;
+}
+.section1-wrap p:first-child{
+    font-size: 18px;
+    color: #555555;
+    line-height: 30px;
+}
+.section1-wrap p:last-child span:first-child{
+    font-size: 14px;
+    color: #b8b8b8;
+}
+.section1-wrap p:last-child span:last-child{
+    font-size: 14px;
+    color: #d4d4d4;
+}
+
+
+/*section1 样式结束 */
+/*section2 样式开始 */
+.section2{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.section2-wrap{
+    padding: 10px 10px 30px 20px;
+}
+.section2-wrap p:nth-child(1){
+    font-size: 16px;
+    color: #212121;
+    line-height: 25px;
+}
+.section2-wrap p:nth-child(2){
+    margin-top: 10px;
+}
+.section2-icon{
+    width: 200px;
+    height: 60px;
+    background-position: 0 -1257px;
+    background-size: 77%;
+}
+.section2-wrap p:nth-child(3){
+    font-size: 13px;
+    color: #adadad;
+    line-height: 20px;
+    float: right;
+}
+/*section2 样式结束 */
+/*section3 样式开始 */
+.section3{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section3-wrap{
+    /*padding: 10px 10px 30px 20px;*/
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.section3-wrap-title{
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.section3-wrap-title span{
+    margin-left: 20px;
+    line-height: 40px;
+    color: #212121;
+    font-size: 16px;
+    height: 40px;
+}
+.section3-wrap-middle{
+    background-color: #fff;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.sec3-left{
+    width: 60px;
+}
+.section2-icon2{
+    width: 60px;
+    height: 60px;
+    background: url('../image/wangZelinIcon.png') no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: 100%;
+}
+.sec3-right{
+    margin-left: 5px;
+}
+.sec3-right-top span:first-child{
+    color: #212121;
+    font-size: 16px;
+}
+.sec3-right-top span:last-child{
+    color: #adadad;
+    font-size: 13px;
+}
+.sec3-right-middle{
+    margin-top: 10px;
+    padding-right: 8px;
+}
+.sec3-right-middle span{
+    color: #212121;
+    font-size: 13px;
+}
+.sec3-right-bottom{
+    margin-top: 10px;
+}
+.sec3-right-bottom span{
+    color: #adadad;
+    font-size: 13px;
+}
+
+.sec3-bottom{
+    background-color: #fff;
+    padding: 10px 10px 60px 10px;
+    display: flex;
+    display: -webkit-flex;
+}
+.sec3-bottom-left{
+    flex: 1;
+    text-align: right;
+}
+.sec3-bottom-left div:nth-child(1){
+    color: #212121;
+    font-size: 14px;
+    line-height: 25px;
+}
+.sec3-bottom-left div:nth-child(2){
+    color: #212121;
+    font-size: 16px;
+    line-height: 25px;
+}
+.sec3-bottom-left div:nth-child(3){
+    color: #adadad;
+    font-size: 13px;
+    line-height: 25px;
+}
+.sec3-bottom-right{
+    width: 60px;
+}
+.section3-icon3{
+    width: 60px;
+    height: 60px;
+    background-size: 400%;
+    background-position: 0 -300px;
+}
+/*section3 样式结束 */
+/*section4 样式开始 */
+.section4{
+    box-sizing: border-box;
+}
+.section4-wrap{
+    padding: 10px 5px;
+    display: flex;
+    display: -webkit-flex;
+}
+.sec4-left{
+    width: 30px;
+}
+.section4-icon4{
+    width: 30px;
+    height: 30px;
+    background-size: 400%;
+    background-position: 7px -120px;
+}
+.sec4-middle{
+    flex: 1;
+    text-align: right;
+}
+.sec4-middle input{
+    width: 84%;
+    margin-right: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    padding: 10px;
+}
+.sec4-right{
+    width: 70px;
+}
+.sec4-right button{
+    padding: 10px 15px;
+    background-color: #fa486c;
+    border: none;
+    border-radius:3px;
+    color: #FFFFff;
+    text-align: center;
+}
+/*section4 样式结束 */

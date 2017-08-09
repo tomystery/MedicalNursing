@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>医小护--欢迎你登录</title>
+    <link rel="stylesheet" href="public/css/initialize.css"/>
+    <link rel="stylesheet" href="public/css/login.css"/>
+
+</head>
+<body>
+<div class="wrap">
+    <div class="top">
+        <div class="top-logo">
+            <img src="public/images/login_logo.png" alt="医小护欢迎你登录"/>
+        </div>
+        <div class="top-title">
+            <span class="title">医小护 · 后台管理系统 1.0版</span>
+        </div>
+    </div>
+    <div class="middle">
+        <form action="views/main.html" class="form_groups">
+            <input type="text" placeholder="账号" class="form-control" name="txtUser"/><br/><br/>
+            <input type="password" placeholder="密码"class="form-control" name="txtPwd"/><br/><br/>
+            <div class="form_choose clearFix">
+                <input type="checkbox"/><span>记住账号（保存7天)</span>
+            </div>
+            <button type="submit">登录</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <span>&copy;2015 北京康知天下科技有限公司</span>
+        </div>
+    </div>
+</div>
+
+
+<script src="public/js/jquery-1.7.2.js"></script>
+<script>
+    $(function(){
+            $("form").submit(function () {
+                if ($("input[name='txtuser']").val() == "") {
+                    alert("用户名不能为空");
+                    return false;
+                }
+                else if ($("input[name='txtPwd']").val() == "") {
+                    alert("密码不能为空");
+                    return false;
+                }
+                else {
+                    $.ajax({
+                        type: "post",
+                        url: "login.html",
+                        async: false,
+                        data: { UserName: $("input[name='txtuser']").val(),
+                            PWD: $("input[name='txtPwd']").val()
+                        },
+                        success: function (data, status) {
+                            var types = data;
+                            if (types.toString() != "登录成功") {
+                                console.log(data);
+                            }
+                            else{
+                                window.location.href="views/main.html";
+                            }
+                        },
+                        error: function () { alert("用户名密码验证失败") }
+
+                    });
+                }
+        });
+
+
+    })
+</script>
+</body>
+</html>

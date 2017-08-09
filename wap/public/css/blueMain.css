@@ -1,0 +1,500 @@
+@charset "utf-8";
+/*******公共样式 开始********/
+.wrap {
+    position:relative ;
+    background-color: #efefef;
+    box-sizing: border-box;
+}
+.blueIcon {
+    background: url("../image/blueIcon.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*******公共样式 结束********/
+/*******blue的header 样式开始***********/
+.headerWrap {
+    display: -webkit-box;/*声明盒子*/
+    display: flex;/*声明盒子*/
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    background-color: #1fbca9;
+}
+.headerWrap span{
+    font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+}
+.headerWrap .headBox-left {
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+}
+.headerWrap .headBox-right{
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+}
+.headerWrap .headBox-middle {
+    -webkit-box-flex: 1;/*每个盒子占的份数*/
+    flex: 1;/*每个盒子占的份数*/
+    font-size: 18px;
+}
+.doctorListIcon1{
+    width: 20px;
+    height: 10px;
+    background-position: 0 0;
+    background-size: 800%;
+}
+
+
+
+
+/*******blue的header 样式结束***********/
+
+
+/*******sec1 样式开始***********/
+.sec1-banner{
+    position: relative;
+}
+.banner-img{
+    height: 150px;
+    background: url('../image/doctorDetailBanner.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+.banner-btn{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-btn span{
+    width: 10px;
+    height: 10px;
+    background-color: #979797;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.banner-btn .on{
+    background-color: #1fbca9;
+}
+
+/*******sec1 样式结束***********/
+
+/*******sec2 样式开始***********/
+.sec2-wrap{
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec2-wrap>div {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.sec2-wrap a{
+    color: #434343;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.sec2-wrap .aSelect{
+    border-bottom: 2px solid #1fbca9;
+    width: 50px;
+}
+
+/*******sec2 样式结束***********/
+/*******sec3 样式开始***********/
+.sec-wrap{
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    display: -webkit-box;
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    padding: 20px 10px 20px 15px;
+    box-sizing: border-box;
+}
+
+.sec-middle{
+    -webkit-box-flex: 1;/*每个盒子占的份数*/
+    flex: 1;/*每个盒子占的份数*/
+    margin-left: 5px;
+    line-height: 25px;
+}
+.sec-middle .s1 a{
+    font-size: 18px;
+    color: #000;
+}
+.s2{
+    font-size: 13px;
+}
+.doctorListIcon3{
+    width: 120px;
+    height: 20px;
+    background-position: 0 -203px;
+    background-size: 80%;
+}
+
+.sec-left{
+    width: 60px;
+    height:60px;
+    margin-right: 5px;
+}
+.doctorListIcon2{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -93px;
+    background-size: 167%;
+}
+.doctorListIcon4{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -151px;
+    background-size: 167%;
+}
+
+.sec-right{
+    width: 50px;
+    line-height: 25px;
+}
+.sec-right .s3{
+    color: #ffb94b;
+    font-size: 13px;
+}
+
+/*******sec3 样式结束***********/
+/*******nav 样式开始***********/
+.nav-wrap {
+    text-align: center;
+    background: #FFFFff;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 20px;
+}
+.nav-box{
+    width: 33%;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav-box:nth-child(1) {
+    color: #1fbca9;
+}
+.nav-img {
+    margin: 11px 0 5px 0;
+    width: 16px;
+    height: 16px;
+}
+.nav-word {
+    margin-bottom: 11px;
+}
+.nav-word a{
+    color: #8e8e8e;
+}
+.doctorListIcon5{
+    width: 46px;
+    height: 28px;
+    background-position: 7px -75px;
+    background-size: 240%;
+}
+.doctorListIcon6{
+    width: 46px;
+    height: 28px;
+    background-position: 13px -19px;
+    background-size: 240%;
+}
+.doctorListIcon7{
+    width: 46px;
+    height: 28px;
+    background-position: 12px -47px;
+    background-size: 240%;
+}
+
+
+/*******nav 样式结束***********/
+
+
+
+
+/***************医生详情页 样式开始*******************************/
+/*sec11 样式开始*/
+.sec11 .sec-wrap{
+    border-top:none;
+    margin: 0;
+    padding-bottom:90px;
+}
+.s4{
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.doctorListIcon8{
+    width: 100px;
+    height: 20px;
+    background-position: 0 -168px;
+    background-size: 80%;
+}
+
+/*sec1 样式结束*/
+/*sec22 样式开始*/
+.sec22{
+    display: -webkit-box;/*声明盒子*/
+    display: flex;/*声明盒子*/
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sec22>div{
+    -webkit-box-flex: 1;/*每个盒子占的份数*/
+    flex: 1;/*每个盒子占的份数*/
+}
+.sec22>div:nth-child(2){
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+/*sec22 样式结束*/
+/*sec33 样式开始*/
+.sec33{
+    box-sizing: border-box;
+    margin: 15px 0;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+}
+.sec33>div:nth-child(1){
+    float: left;
+    margin-left: 20px;
+}
+.sec33>div:nth-child(2){
+    float: right;
+    margin-right: 20px;
+}
+/*sec33 样式结束*/
+/*sec44 样式开始*/
+.sec44{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    border-top:1px solid #d3d3d3; ;
+    border-bottom:1px solid #d3d3d3;
+}
+.sec44>div:first-child{
+    background-color:#f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec44>div:first-child span{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.sec44>div:last-child{
+    background-color: #fff;
+    padding: 10px 15px;
+}
+/*sec44 样式结束*/
+/*sec55 样式开始*/
+.sec55{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    border-top:1px solid #d3d3d3; ;
+    border-bottom:1px solid #d3d3d3;
+}
+.sec55>div:first-child{
+    background-color:#f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec55>div:first-child span{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.sec55>div:last-child{
+    height: 150px;
+    background: url('../image/doctorDetailmap.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+/*sec55 样式结束*/
+/*sec66 样式开始*/
+.sec66{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    border-top:1px solid #d3d3d3;
+}
+.sec66>div:first-child{
+    background-color:#f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec66>div:first-child span{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.sec66>div:last-child{
+    background-color: #fff;
+}
+.sec66>div:last-child p{
+    line-height:30px;
+    height:30px;
+    border-bottom:1px solid #d3d3d3;
+}
+.sec66>div:last-child p span{
+    display: inline-block;
+    margin-left: 15px;
+}
+.doctorListIcon9{
+    width: 27px;
+    height: 15px;
+    background-position: 0 3px;
+    background-size: 237%;
+    margin-left: 10px;
+}
+/*sec66 样式结束*/
+/*sec77 样式开始*/
+.sec77{
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 100%;
+}
+.sec77>div:first-child{
+    background-color:#f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec77>div:first-child span{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.sec77>div:last-child{
+    background-color: #fff;
+}
+.sec77>div:last-child p{
+    line-height:40px;
+    height:40px;
+    border-bottom:1px solid #d3d3d3;
+}
+.sec77>div:last-child p span{
+    display: inline-block;
+}
+.doctorListIcon9{
+    width: 20px;
+    height: 20px;
+    background-position: 0 0;
+    background-size: 533%;
+    margin-left: 10px;
+    line-height: 20px;
+}
+/*sec77 样式结束*/
+/*sec88 样式开始*/
+.sec88{
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 100%;
+}
+.sec88>div:first-child{
+    background-color:#f7f7f7;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec88>div:first-child span{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.sec88>div:last-child{
+    background-color: #fff;
+}
+.sec88>div:last-child p{
+    line-height:40px;
+    height:40px;
+    border-bottom:1px solid #d3d3d3;
+}
+
+.sec88>div:last-child p span{
+    display: inline-block;
+}
+.doctorListIcon9{
+    width: 20px;
+    height: 20px;
+    background-position: 0 0px;
+    background-size: 533%;
+    margin-left: 10px;
+    line-height: 20px;
+}
+/*sec77 样式结束*/
+/*sec99 样式开始*/
+.sec99{
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+}
+
+.sec99-wrap{
+    padding: 10px;
+    text-align: center;
+    background-color:#f7f7f7;
+
+}
+.sec99-wrap button{
+    color: #FFFFff;
+    padding: 10px 40px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 5px 15px;
+}
+.sec99-wrap button:first-child{
+    background-color: #ffb039;
+}
+.sec99-wrap button:last-child{
+    background-color: #1fbca9;
+}
+/*sec99 样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************医生详情页 样式结束*******************************/

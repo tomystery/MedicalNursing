@@ -1,0 +1,252 @@
+/***banner css start ***/
+.banner{
+    background: url("../images/banner.png") center no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 404px;
+    position: relative;
+}
+.banner div{
+    position: absolute;
+    left: 160px;
+}
+.banner_word_top{
+    top: 60px;
+    font-size: 28px;
+    color: #414141;
+
+}
+.banner_word_middle{
+    top: 110px;
+    font-size: 40px;
+    color: #109f8e;
+
+}
+.banner_word_bottom{
+    top: 175px;
+    font-size: 55px;
+    color: #4f4f4f;
+
+}
+/***banner css end ***/
+
+/***content css start ***/
+.content{
+    width: 100%;
+    padding: 50px 0;
+}
+.content>div{
+    width: 80%;
+    margin: 0 auto;
+}
+.sec1{
+    padding: 40px;
+}
+.sec1_title{
+    text-align: center;
+    font-size: 40px;
+    color: #222222;
+    padding: 10px;
+}
+.sec1_word{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #818181;
+    font-size: 16px;
+}
+.sec2{
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.sec2_top{
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+    padding: 10px;
+}
+.sec2_middle{
+    text-align: center;
+    color: #818181;
+    font-size: 16px ;
+    padding: 30px;
+}
+.sec2_bottom{
+    display: -webkit-box;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sec2_bottom .img{
+    width: 300px;
+    height: 222px;
+}
+.sec2_bottom .box_img1{
+    background: url("../images/index_img1.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec2_bottom .box_img2{
+    background: url("../images/index_img2.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec2_bottom .box_img3{
+    background: url("../images/index_img3.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec2 .box_title{
+    color: #2e2e2e;
+    font-size: 32px;
+}
+.sec2 .box_word{
+    color: #818181;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.sec2 .box_button{
+    margin: 0 auto;
+    width: 180px;
+    height:50px;
+    background-color: #1fbca9;
+    line-height:50px;
+    color: #f5fbfa;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+}
+.sec2 .box_line{
+    background: url("../images/line_shadow.png") no-repeat;
+    background-size: 100% auto;
+    width: 200px;
+    height: 30px;
+    margin: 50px auto 30px;
+}
+
+
+.sec3{
+    padding: 70px;
+}
+.sec3 .box_pic{
+    float: left;
+}
+.sec3 .box_pic .icon1{
+    width: 134px;
+    height: 135px;
+    background-position: 0 -1319px;
+}
+.sec3 .box_tip{
+    margin: 30px 20px;
+    color: #818181;
+    float: left;
+    width: 80%;
+}
+.sec3 .box_tip .tip_middle{
+    margin: 10px 0 0 0;
+}
+.sec3 .circle_button{
+    width: 80%;
+    float: left;
+    text-align: center;
+    margin: 40px auto;
+}
+.sec3 .circle_button span {
+    width: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a0a0a0;
+}
+.sec3 .circle_button span:hover{
+    background-color: #1fbca9;
+}
+
+
+.sec4{
+    padding: 10px;
+}
+.sec4 .sec4_top{
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+    padding: 10px;
+}
+.sec4 .sec4_middle,.sec4 .sec4_bottom{
+    display: -webkit-box;
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+}
+.sec4 .sec4_bottom{
+    margin: 60px 0;
+}
+.sec4_box{
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sec4 .icon2{
+    width: 300px;
+    height: 118px;
+    background-position: 0 -1000px;
+}
+.sec4 .icon3{
+    width: 300px;
+    height: 115px;
+    background-position: 0 -517px;
+}
+.sec4 .icon4{
+    width: 300px;
+    height: 113px;
+    background-position: 0 -1206px;
+}
+.sec4 .icon5{
+    width: 300px;
+    height: 98px;
+    background-position: 0 -326px;
+}
+.sec4 .sec4_top_word_title{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+
+.sec5{
+    padding: 10px;
+}
+.sec5 .sec5_top{
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 50px;
+    margin: 40px 0;
+}
+.sec5 .sec5_middle p{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.sec5 .sec5_middle p:first-child{
+    color: #818181;
+    font-size: 16px;
+}
+.sec5 .sec5_middle p:last-child{
+    color: #818181;
+    font-size: 14px;
+}
+.sec5 .sec5_middle p:last-child span{
+    color: #1fbca9;
+}
+.sec5 .sec5_bottom{
+    text-align: center;
+    margin: 40px 0;
+}
+.sec5 .sec5_bottom i{
+    width: 230px;
+    height: 226px;
+    background: url('../images/ewm.png') no-repeat;
+    display: inline-block;
+}
+
+
+/***content css end ***/

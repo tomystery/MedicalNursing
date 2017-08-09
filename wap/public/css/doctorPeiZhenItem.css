@@ -1,0 +1,228 @@
+@charset "utf-8";
+/*section1 样式开始 */
+.section1{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.sec-wrap{
+    display: -webkit-box;
+    display: flex;
+    padding: 20px 10px 20px 15px;
+}
+
+.sec-middle{
+    -webkit-box-flex: 1;/*每个盒子占的份数*/
+    flex: 1;/*每个盒子占的份数*/
+    margin-left: 5px;
+    line-height: 25px;
+}
+.sec-middle .s1 a{
+    font-size: 18px;
+    color: #000;
+}
+.s2{
+    font-size: 13px;
+}
+
+.sec-left{
+    width: 60px;
+    height:60px;
+    margin-right: 5px;
+}
+.sec-right{
+    width: 50px;
+    line-height: 25px;
+}
+.lastSec{
+    width: 20px;
+    position: relative;
+}
+
+.lastSec::after{
+    content: '新';
+    width: 25px;
+    height: 25px;
+    color: #FFFFff;
+    font-size: 13px;
+    background-color: #6fd029;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.sec-right .s3{
+    color: #fa486c;
+    font-size: 18px;
+}
+.onlyS{
+    color: #fa486c;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+/*.sec-right:last-child .s3{
+    font-size: 16px;
+}*/
+.sec-icon1{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -882px;
+    background-size: 247%;
+}
+.sec-icon2{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -822px;
+    background-size: 247%;
+}
+.sec-icon3{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -942px;
+    background-size: 247%;
+}
+.sec-icon4{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -764px;
+    background-size: 247%;
+}
+.sec-icon5{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -702px;
+    background-size: 247%;
+}
+/*section1 样式结束 */
+/*section2 样式开始 */
+.section2{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.section2-top1{
+    height: 150px;
+    background: url('../image/doctorPeizhenBanner1.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+.section2-bottom{
+    padding: 10px 15px;
+    display: -webkit-box;
+    display: flex;
+}
+.section2-left{
+    -webkit-box-flex: 1;
+    flex: 1;
+    line-height: 25px;
+}
+.section2-left p:first-child{
+    color: #393939;
+    font-size: 18px;
+}
+.section2-left p:last-child{
+    color: #616161;
+    font-size: 12px;
+}
+.section2-right{
+    width: 66px;
+    color: #fa486c;
+    font-size: 16px;
+}
+
+.section2-top2{
+    height: 150px;
+    background: url('../image/doctorPeizhenBanner2.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+
+.section2-top3{
+    height: 150px;
+    background: url('../image/doctorPeizhenBanner3.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+
+.section2-top4{
+    height: 150px;
+    background: url('../image/doctorPeizhenBanner4.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+
+.section2-top5{
+    height: 150px;
+    background: url('../image/doctorPeizhenBanner5.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+/*section2 样式结束 */
+
+/*******nav 样式开始***********/
+.nav-wrap {
+    text-align: center;
+    background: #FFFFff;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+    border-top: 1px solid #d3d3d3;
+    margin-top: 20px;
+    position: fixed;
+}
+.nav-box{
+    width: 33%;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.nav-box:nth-child(1) {
+    color: #fa486c;
+}
+.nav-img {
+    margin: 11px 0 5px 0;
+    width: 16px;
+    height: 16px;
+}
+.nav-word {
+    margin-bottom: 11px;
+}
+.nav-word a{
+    color: #8e8e8e;
+}
+.nav-img1{
+    width: 36px;
+    height: 36px;
+    background-position: -32px -148px;
+    background-size: 513%;
+}
+.nav-img2{
+    width: 36px;
+    height: 36px;
+    background-position: 8px -93px;
+    background-size: 513%;
+}
+.nav-img3{
+    width: 28px;
+    height: 37px;
+    background-position: -18px -16px;
+    background-size: 724%;
+}
+
+
+/*******nav 样式结束***********/

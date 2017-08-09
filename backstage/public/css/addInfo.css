@@ -1,0 +1,195 @@
+/*公共类样式 start*/
+.sec-top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 10px;
+    background-color: #f0f0f0;
+}
+.sec-top span{
+    color: #787878;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 14px;
+}
+.sec-top-left{
+    float: left;
+}
+.sec-top-right{
+    float: right;
+}
+
+
+/*公共类样式 end*/
+/*addDoctor  start*/
+.bottom{
+    margin: 0 0 0 15px;
+}
+.bottom_title{
+    color: #5e5e5e;
+    font-size: 20px;
+    margin: 30px 0 30px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+}
+.bottom_content{
+    margin:10px 0;
+}
+.bottom .form_group{
+    margin: 15px 0;
+}
+.bottom .form_left{
+    width: 90px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+    color: #787878;
+    display: inline-block;
+    text-align: right;
+}
+.bottom .form_right{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+}
+.bottom .form_right2{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+}
+.bottom .form_right3{
+    vertical-align: top;
+    width: 420px;
+    height: 100px;
+    line-height: 30px;
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+}
+
+.form_group input[type="radio"]{
+    margin-left: 10px;
+}
+.form_group input[type="text"]{
+    color: #acacac;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+.form_group .idenWord {
+    margin: 0 0 0 10px;
+}
+
+.bottom .form_submit button{
+    border: none;
+    padding: 8px 40px;
+    background-color: #3a65b8;
+    color: #FFFFff;
+    font-size: 15px;
+    margin: 10px 20px 10px 85px;
+    font-weight: bolder;
+}
+
+.bottom_wrap_second{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+.special{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding:20px 0;
+}
+.bottom-wrap:last-child .form_left{
+    width: 130px;
+}
+.upload{
+    position: relative;
+}
+.upload .imgShow{
+    width: 360px;
+    height: 190px;
+    position: relative;
+    background-color: #f3f3f3;
+    margin: 5px 70px 5px 15px;
+}
+.upload_title,.upload{
+    float: left;
+}
+
+.uploadBtn {
+    float: right;
+    margin: 17px 67px;
+    position: relative;
+}
+.uploadBtn input {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    z-index: 9;
+    opacity: 0;
+}
+.uploadBtn label {
+    position: absolute;
+    background: #f3f3f3;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    color: #686868;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+/*addDoctor  end*/
+/*addService  start*/
+.uploadImg{
+    background-color: #f6f5f1;
+    line-height: 50px;
+    height: 50px;
+}
+.uploadImg .uploadBtn{
+    margin: 3px 15px;
+    position: relative;
+}
+.uploadImg .uploadBtn input{
+    height: 30px;
+    top: -7px;
+}
+.uploadImg label{
+    height: 30px;
+    line-height: 30px;
+    top: 7px;
+}
+
+.bottom-wrap-addS .form_group:nth-child(1) .form_right {
+    width: 500px;
+}
+.form_price .form_right{
+    width: 100px;
+}
+.form_doc .form_right{
+    width: 100px;
+}
+
+
+.bottom .form_submit .immiUpload{
+    margin: 0 0 0 100px;
+    background-color: #4285f4;
+}
+.bottom .form_submit .save{
+    border: none;
+    padding: 8px 55px;
+    background-color: #949494;
+    margin: 10px 20px 10px 60px;
+}
+/*addService  end*/

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>医小护用户信息管理</title>
+    <link rel="stylesheet" href="../public/css/initialize.css"/>
+    <link rel="stylesheet" href="../public/css/main.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="top">
+        <div class="top_left">
+            <a href="main.html">
+                <i class="icons icon1"></i>
+                <span class="icon1_word">医小护 · 后台管理系统 1.0</span>
+            </a>
+        </div>
+        <div class="top_right">
+            <i class="icons icon2"></i>
+            <span class="icon2_word">admin管理员</span>
+            <a href="#" class="icon2_word">退出</a>
+        </div>
+    </div>
+    <div class="content clearFix">
+        <div class="left">
+            <div class="left-top">
+                <i class="icons icon3"></i>
+                <span class="icon3_word">系统快捷管理</span>
+            </div>
+            <div class="left-bottom">
+                <!-- 树形菜单开始 -->
+                <div class="pnav-wrap">
+                    <div class="pnav-box" id="little-a">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold"></a>
+                            <a href="#" class="btn-unfold hidden"></a>
+                            <span class="pnav-letter">医生/护士管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="doctor_list.html">医生列表</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="#">护士列表</a>
+
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addDoctor.html">添加医生/护士</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pnav-box" id="little-b">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold hidden"></a>
+                            <a href="#" class="btn-unfold"></a>
+                            <span class="pnav-letter">服务管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addService.html">添加服务</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="service_lists.html" class="active_A">服务列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 树形菜单结束 -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <div class="right_title">
+                    <span>管理首页</span>
+                </div>
+                <ul class="right_nav">
+                    <li><a href="doctor_list.html">医生管理</a></li>
+                    <li><a href="#">护士管理</a></li>
+                    <li class="active_Li"><a href="service_lists.html">服务管理</a></li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <div class="table_wrap">
+                    <div class="table_title">
+                        <div class="title-wrap">
+                            <span>医小护 - 服务管理</span>
+                        </div>
+                        <div class="search-wrap">
+                            <input type="search" placeholder="请输入用户ID/关键字"/><button>搜索</button>
+                        </div>
+                    </div>
+                    <div class="table_choose">
+                        <ul>
+                            <li class="active_title">服务列表</li>
+                            <li>无效订单</li>
+                        </ul>
+                    </div>
+                    <!-- 表格 开始 -->
+                    <div class="table_content">
+                        <div id="top">
+                            <table id="topTable" border="1">
+                                <thead>
+                                <tr>
+                                    <td class="firstTd"><input type='checkbox'></td>
+                                    <td>序号</td>
+                                    <td>姓名</td>
+                                    <td>性别</td>
+                                    <td>是否挂号</td>
+                                    <td>挂号信息</td>
+                                    <td>科室</td>
+                                    <td>联系电话</td>
+                                    <td>服务时间</td>
+                                    <td>地址</td>
+                                    <td>状态</td>
+                                    <td>选项</td>
+                                </tr>
+                                </thead>
+                                <tbody id="show">
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="bottom">
+                            <div id="bottomTable">
+                                <button id="back">上</button>
+                                <button id="first">首</button>
+                                <button id="last">末</button>
+                                <button id="next">下</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 表格 结束 -->
+                    <div class="table_copyright">
+                        <span>《医小护后台管理系统》由康知研发部支持@2015</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../public/js/jquery-1.7.2.js"></script>
+<script src="../public/js/mainTree.js"></script>
+<script src="../public/js/fenyeServiceList.js"></script>
+</body>
+</html>

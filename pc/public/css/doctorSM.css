@@ -1,0 +1,292 @@
+/***banner css start ***/
+.banner{
+    background: url("../images/doctorShangMenBanner.png") center no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 404px;
+    position: relative;
+}
+.banner div{
+    position: absolute;
+    left: 160px;
+}
+.banner_word_top{
+    top: 120px;
+    font-size: 38px;
+    color: #414141;
+
+}
+.banner_word_middle{
+    top: 190px;
+    font-size: 24px;
+    color: #626262;
+
+}
+.banner_word_bottom{
+    top: 235px;
+    font-size: 24px;
+    color: #626262;
+}
+/***banner css end ***/
+
+/***content css start ***/
+.content{
+    width: 100%;
+    padding: 20px 0;
+}
+.content>div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sec1{
+    padding: 10px;
+}
+.sec1 .sec1_top,.sec1 .sec1_middle,.sec1 .sec1_bottom{
+    display: -webkit-box;
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+}
+.sec1 .sec1_bottom{
+    margin: 60px 0;
+}
+.sec1_box{
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sec1 .icon1{
+    width: 300px;
+    height: 96px;
+    background-position: 0 -908px;
+}
+.sec1 .icon2{
+    width: 155px;
+    height: 90px;
+    background-position: 0 -726px;
+}
+.sec1 .icon3{
+    width: 300px;
+    height: 92px;
+    background-position: 0 -816px;
+}
+.sec1 .icon4{
+    width: 155px;
+    height: 93px;
+    background-position: 0 -424px;
+}
+.sec1 .icon5{
+    width: 300px;
+    height: 88px;
+    background-position: 0 -1118px;
+}
+.sec1 .icon6{
+    width: 300px;
+    height: 101px;
+    background-position: 0 -37px;
+}
+.sec1 .sec1_top_word_title{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+
+
+.sec2{
+    background-color: #f8f8f8;
+    padding: 30px 0 ;
+}
+.sec2_top{
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+    padding: 10px;
+}
+.sec2_middle{
+    text-align: center;
+    color: #818181;
+    font-size: 16px ;
+    padding: 30px;
+}
+.sec2_middle p{
+    margin-bottom: 10px;
+}
+.sec2_bottom{
+    display: -webkit-box;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sec2_bottom .box{
+    width: 375px;
+    height: 440px;
+    background: #fff;
+    margin: 0 10px;
+    z-index: 20;
+    position: relative;
+}
+
+.sec2 .box_title{
+    color: #2e2e2e;
+    font-size: 27px;
+    margin: 30px 0 0 0;
+}
+.sec2 .box_word{
+    color: #818181;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+.sec2 .box_button{
+    margin: 0 auto;
+    width: 180px;
+    height:50px;
+    background-color: #1fbca9;
+    line-height:50px;
+    color: #f5fbfa;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+}
+.sec2 .box:nth-child(1) .box_price{
+    margin: 110px auto 20px;
+}
+.sec2 .box:nth-child(2) .box_price{
+    margin: 70px auto 20px;
+}
+.sec2 .box:nth-child(3) .box_price{
+    margin: 90px auto 20px;
+}
+.sec2 .box_price .box_price_left{
+    color: #f48239;
+    font-size: 28px;
+}
+.sec2 .box_price .box_price_right{
+    color: #797979;
+    font-size: 14px;
+}
+.sec2 .box_line{
+    background: url("../images/line_shadow.png") no-repeat;
+    background-size: 100% auto;
+    width: 270px;
+    height: 30px;
+    margin: 55px auto 30px;
+    position: relative;
+    z-index: -22;
+}
+.sec2_footer{
+    width: 80%;
+    text-align: center;
+    margin: 40px auto 20px;
+}
+.sec2_footer span{
+    display: inline-block;
+    color: #818181;
+}
+
+
+
+
+
+
+
+.sec3{
+    padding: 40px;
+}
+.sec3_wrap{
+    display: -webkit-box;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.sec3_wrap .box{
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+.sec3_wrap .icon7{
+    width: 100px;
+    height: 93px;
+    margin: 20px;
+    background-position: 0 -234px;
+}
+.sec3_wrap .icon8{
+    width: 98px;
+    height: 94px;
+    margin: 20px;
+    background-position: 0 -632px;
+}
+.sec3_wrap .icon9{
+    width: 94px;
+    height: 98px;
+    margin: 20px;
+    background-position: 0 -326px;
+}
+.sec3_wrap .box_title{
+    color: #494949;
+    font-size: 25px;
+}
+.sec3_wrap .box_word{
+    text-align: left;
+    color: #818181;
+    font-size: 14px;
+    margin: 20px 15px;
+}
+.sec3_footer{
+    padding: 30px;
+}
+.sec3_footer .box_button{
+    margin: 0 auto;
+    width: 180px;
+    height:50px;
+    background-color: #1fbca9;
+    line-height:50px;
+    color: #f5fbfa;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+
+.sec4{
+    padding: 10px;
+}
+.sec4 .sec4_top{
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 50px;
+    margin: 40px 0;
+}
+.sec4 .sec4_middle p{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.sec4 .sec4_middle p:first-child{
+    color: #818181;
+    font-size: 16px;
+}
+.sec4 .sec4_middle p:last-child{
+    color: #818181;
+    font-size: 14px;
+}
+.sec4 .sec4_middle p:last-child span{
+    color: #1fbca9;
+}
+.sec4 .sec4_bottom{
+    text-align: center;
+    margin: 40px 0;
+}
+.sec4 .sec4_bottom i{
+    width: 230px;
+    height: 226px;
+    background: url('../images/ewm.png') no-repeat;
+    display: inline-block;
+}
+
+
+/***content css end ***/
+

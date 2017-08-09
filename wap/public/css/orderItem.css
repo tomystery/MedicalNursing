@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+
+/****header样式开始******/
+.aboutItem-icon1{
+    width: 20px;
+    height: 20px;
+    background-position: 0 -112px;
+    background-size: 800%;
+}
+
+/****header样式结束******/
+/*section1 样式开始 */
+.section1{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+.section1-wrap{
+}
+
+.sec1-top span{
+    color: #3cc300;
+    font-size: 20px;
+}
+.aboutItem-icon2{
+    width: 30px;
+    height: 30px;
+    background-position: 4px -28px;
+    background-size: 900%;
+}
+.sec1-middle{
+    padding: 10px 0 30px 0;
+    line-height: 25px;
+}
+.sec1-bottom button{
+    padding: 10px 30px;
+    background-color: #fa486c;
+    border: none;
+    color: #FFFFff;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/*section1 样式结束 */
+/*订单详情 样式开始 */
+.module1-wrap{
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+}
+.module1-wrap>div {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.module1 a{
+    color: #434343;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.module1 .aSelect{
+    border-bottom: 2px solid #fa486c;
+}
+/**module2 样式开始***/
+.module2{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #d3d3d3;
+    background-color: #fff;
+}
+
+.module2-top{
+    padding: 10px;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.module2-top span:first-child{
+    color: #636363;
+    font-size: 16px;
+    float: left;
+}
+.module2-top span:last-child{
+    color: #fa486c;
+    font-size: 13px;
+    float: right;
+
+}
+.module2-middle{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.module2-middle>div:first-child{
+    width: 60px;
+    margin: 10px;
+}
+.module2-middle>div:last-child{
+    flex:1;
+    margin: 10px;
+}
+.module2-middle>div:last-child p{
+    font-size: 16px;
+    color: #9e9e9e;
+}
+.module2-middle>div:last-child span{
+    font-size: 14px;
+    color: #636363;
+}
+.module2-icon1{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -882px;
+    background-size: 247%;
+}
+.module2-icon2{
+    width: 60px;
+    height: 60px;
+    background-position: 0 -940px;
+    background-size: 247%;
+}
+.module2-bottom{
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 5px;
+}
+.module2-bottom span{
+    color: #fdb2be;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.module2-bottom button{
+    float: right;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    color: #919191;
+    background-color: #fff;
+    margin-right: 10px;
+}
+/**module2 样式结束***/
+/*******模态框样式 开始***********/
+.modal-wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    background:rgba(0,0,0,0.5);
+    /*display: none;*/
+}
+.modal-wrap .modal-data{
+    position: relative;
+    width: 80%;
+    margin: 100px auto;
+    background-color: #fff;
+    padding:10px;
+    border-radius: 10px;
+}
+.cancel-top {
+    border-bottom: 1px solid #d3d3d3;
+}
+.cancel-top span{
+    height: 40px;
+    line-height: 40px;
+    color: #3f3f3f;
+    font-size: 19px;
+}
+.cancel-middle{
+
+}
+.cancel-middle p{
+    padding: 10px;
+}
+.cancel-middle p span:first-child{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******模态框样式 结束***********/
+
+
+
+
+
+
+/*订单详情 样式结束 */
+
+

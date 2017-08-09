@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>医小护用户信息管理</title>
+    <link rel="stylesheet" href="../public/css/initialize.css"/>
+    <link rel="stylesheet" href="../public/css/main.css"/>
+    <link rel="stylesheet" href="../public/css/addInfo.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="top">
+        <div class="top_left">
+            <a href="main.html">
+                <i class="icons icon1"></i>
+                <span class="icon1_word">医小护 · 后台管理系统 1.0</span>
+            </a>
+        </div>
+        <div class="top_right">
+            <i class="icons icon2"></i>
+            <span class="icon2_word">admin管理员</span>
+            <a href="#" class="icon2_word">退出</a>
+        </div>
+    </div>
+    <div class="content clearFix">
+        <div class="left">
+            <div class="left-top">
+                <i class="icons icon3"></i>
+                <span class="icon3_word">系统快捷管理</span>
+            </div>
+            <div class="left-bottom">
+                <!-- 树形菜单开始 -->
+                <div class="pnav-wrap">
+                    <div class="pnav-box" id="little-a">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold"></a>
+                            <a href="#" class="btn-unfold hidden"></a>
+                            <span class="pnav-letter">医生/护士管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="doctor_list.html">医生列表</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="#">护士列表</a>
+
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addDoctor.html">添加医生/护士</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pnav-box" id="little-b">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold hidden"></a>
+                            <a href="#" class="btn-unfold"></a>
+                            <span class="pnav-letter">服务管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addService.html" class="active_A">添加服务</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="service_lists.html">服务列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- 树形菜单结束 -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <div class="right_title">
+                    <span>管理首页</span>
+                </div>
+                <ul class="right_nav">
+                    <li><a href="doctor_list.html">医生管理</a></li>
+                    <li><a href="">护士管理</a></li>
+                    <li class="active_Li"><a href="doctor_list.html">服务管理</a></li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <div class="table_wrap">
+                    <div class="table_title">
+                        <div class="title-wrap">
+                            <span>医小护 - 服务管理</span>
+                        </div>
+                        <div class="search-wrap">
+                            <input type="search" placeholder="请输入用户ID/关键字"/><button>搜索</button>
+                        </div>
+                    </div>
+                    <div class="table_choose">
+                        <ul class="tab_title">
+                            <li><a href="service_lists.html">服务列表</a></li>
+                            <li><a href="#">无效订单</a></li>
+                            <li class="active_title">添加服务</li>
+                        </ul>
+                    </div>
+                    <div class="main-content">
+                        <div class="sec-top">
+                            <span class="sec-top-left">请添加一个服务，包含（服务广告图，时间日期，价格等。）一个商品。</span>
+                        </div>
+                        <div class="bottom">
+                            <!-- 第一个 开始-->
+                            <div class="bottom-wrap-addS">
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group">
+                                            <label class="form_left">服务名称：</label>
+                                            <input type="text" class="form_right" placeholder="">
+                                        </div>
+                                        <div class="form_group clearFix uploadImg">
+                                            <div class="upload_title"><label class="form_left">图片上传：</label></div>
+                                            <div class="upload">
+                                                <div class="uploadBtn">
+                                                    <input type="file" />
+                                                    <label>上传图片</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">服务类型：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择分类</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group form_price">
+                                            <label class="form_left">服务价格：</label>
+                                            <input type="text" class="form_right" placeholder="0.00">
+                                            <span>元</span>
+                                        </div>
+                                        <div class="form_group form_price">
+                                            <label class="form_left">市场价格：</label>
+                                            <input type="text" class="form_right" placeholder="0.00">
+                                            <span>元</span>
+                                        </div>
+                                        <div class="form_group form_doc">
+                                            <label class="form_left">上门医生：</label>
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+                                            <input type="text" class="form_right" placeholder="请填写医生ID">
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第一个 结束-->
+                            <!-- 第二个 开始-->
+                            <div class="bottom_wrap_second">
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group">
+                                            <label class="form_left">介绍项目：</label>
+                                        <textarea class="form_right3">
+                                        </textarea>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">预约须知：</label>
+                                        <textarea class="form_right3">
+                                        </textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第二个 结束-->
+                            <!-- 第三个 开始-->
+                            <div class="bottom_wrap">
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group form_submit">
+                                            <button class="immiUpload">立即发布</button>
+                                            <button class="save">保存</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第二个 结束-->
+                        </div>
+                    </div>
+                    <div class="table_copyright">
+                        <span>《医小护后台管理系统》由康知研发部支持@2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../public/js/jquery-1.7.2.js"></script>
+<script src="../public/js/mainTree.js"></script>
+</body>
+</html>

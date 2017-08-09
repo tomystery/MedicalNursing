@@ -1,0 +1,218 @@
+@charset "utf-8";
+/*******公共样式 开始********/
+.wrap {
+    position:relative ;
+    background-color: #efefef;
+    box-sizing: border-box;
+}
+.pinkIcon {
+    background: url("../image/pinkIcon.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*******header 样式开始***********/
+.headerWrap {
+    display: -webkit-box;/*声明盒子*/
+    display: flex;/*声明盒子*/
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fa486c;
+}
+.headerWrap span{
+    font-family: "Microsoft YaHei", 微软雅黑, sans-serif;
+}
+.headerWrap .headBox-left {
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+}
+.headerWrap .headBox-right{
+    width: 50px;
+}
+.headerWrap .headBox-middle {
+    -webkit-box-flex: 1;/*每个盒子占的份数*/
+    flex: 1;/*每个盒子占的份数*/
+    font-size: 18px;
+}
+
+/*******header 样式结束***********/
+/*******sec1  样式开始***********/
+
+.sec1{
+    box-sizing: border-box;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec1-wrap{
+    padding: 5px 15px;
+}
+.sec1-wrap span{
+    color: #9e9e9e;
+}
+.sec1-wrap input{
+    border: none;
+    outline: none;
+    color: #d9d9d9;
+}
+/*******sec1 样式结束***********/
+/*******sec2 样式开始***********/
+
+.sec2{
+    box-sizing: border-box;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec2-wrap{
+    padding: 5px 15px;
+}
+.sec2-wrap span{
+    color: #9e9e9e;
+}
+.sec2-wrap textarea{
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: #d9d9d9;
+    width: 230px;
+    height: 100px;
+    vertical-align: top;
+    padding-top: 10px;
+    overflow: hidden;
+    resize: none;
+}
+/*******sec2 样式结束***********/
+/*******sec3 样式开始***********/
+
+.sec3{
+    box-sizing: border-box;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+}
+.sec3-wrap{
+    padding: 5px 15px 5px 20px;
+    position: relative;
+}
+.doctorIcon1{
+    width: 50px;
+    height: 50px;
+    background-position: 0 -698px;
+    background-size: 207%;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+}
+.doctorIcon2{
+    width: 50px;
+    height: 50px;
+    background-position: 0 -745px;
+    background-size: 207%;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    position: relative;
+
+}
+.sec3-wrap input{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: none;
+    left: 79px;
+    top: 15px;
+    opacity: 0;
+    z-index: 99;
+}
+/*******sec3 样式结束***********/
+/*******sec4 样式开始***********/
+.sec4{
+    box-sizing: border-box;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+}
+.sec4-wrap{
+    padding: 5px 15px;
+}
+.sec4-wrap span{
+    color: #9e9e9e;
+}
+.sec4-wrap input{
+    border: none;
+    outline: none;
+    color: #d9d9d9;
+}
+
+/*单选按钮的样式设置*/
+.sec4-wrap input[type="radio"] {
+    margin: 3px 3px 0 5px;
+    display: none;
+}
+.sec4-wrap label {
+    padding-left: 20px;
+    cursor: pointer;
+    background: url('../image/radioIcon.png') no-repeat 4px 4px;
+    background-size: 185%;
+}
+.sec4-wrap label.checked {
+    background-position: -50px 4px;
+    background-size: 185%;
+}
+
+/*******sec4 样式结束***********/
+/*******sec5 样式结束***********/
+.sec5{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.sec5-wrap{
+    padding: 5px 50px;
+    text-align: center;
+
+}
+.sec5-wrap button{
+    padding: 10px 70px;
+    background-color: #fa486c;
+    border-radius: 30px;
+    color: #FFFFff;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 130px;
+}
+/*******sec5 样式结束***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******公共样式 结束********/
+

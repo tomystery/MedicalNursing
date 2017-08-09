@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>医小护用户信息管理</title>
+    <link rel="stylesheet" href="../public/css/initialize.css"/>
+    <link rel="stylesheet" href="../public/css/main.css"/>
+    <link rel="stylesheet" href="../public/css/addInfo.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="top">
+        <div class="top_left">
+            <a href="main.html">
+                <i class="icons icon1"></i>
+                <span class="icon1_word">医小护 · 后台管理系统 1.0</span>
+            </a>
+        </div>
+        <div class="top_right">
+            <i class="icons icon2"></i>
+            <span class="icon2_word">admin管理员</span>
+            <a href="#" class="icon2_word">退出</a>
+        </div>
+    </div>
+    <div class="content clearFix">
+        <div class="left">
+            <div class="left-top">
+                <i class="icons icon3"></i>
+                <span class="icon3_word">系统快捷管理</span>
+            </div>
+            <div class="left-bottom">
+                <!-- 树形菜单开始 -->
+                <div class="pnav-wrap">
+                    <div class="pnav-box" id="little-a">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold"></a>
+                            <a href="#" class="btn-unfold hidden"></a>
+                            <span class="pnav-letter">医生/护士管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="doctor_list.html">医生列表</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="#">护士列表</a>
+
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addDoctor.html" class="active_A">添加医生/护士</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pnav-box" id="little-b">
+                        <div class="box-title">
+                            <a href="#" class="btn-fold hidden"></a>
+                            <a href="#" class="btn-unfold"></a>
+                            <span class="pnav-letter">服务管理</span>
+                        </div>
+                        <ul class="box-list">
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="addService.html">添加服务</a>
+                            </li>
+                            <li>
+                                <i class="ztree_icons ztree_icon1"></i>
+                                <a href="service_lists.html">服务列表</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- 树形菜单结束 -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <div class="right_title">
+                    <span>管理首页</span>
+                </div>
+                <ul class="right_nav">
+                    <li class="active_Li"><a href="doctor_list.html">医生管理</a></li>
+                    <li><a href="">护士管理</a></li>
+                    <li><a href="doctor_list.html">服务管理</a></li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <div class="table_wrap">
+                    <div class="table_title">
+                        <div class="title-wrap">
+                            <span>医小护 - 医生管理</span>
+                        </div>
+                        <div class="search-wrap">
+                            <input type="search" placeholder="请输入用户ID/关键字"/>
+                            <button>搜索</button>
+                        </div>
+                    </div>
+                    <div class="table_choose">
+                        <ul class="tab_title">
+                            <li><a href="doctor_list.html">医生列表</a></li>
+                            <li><a href="#">护士列表</a></li>
+                            <li class="active_title">添加医生/护士</li>
+                        </ul>
+                    </div>
+                    <div class="main-content">
+                        <div class="sec-top">
+                            <span class="sec-top-left">账号：1433412882@qq.com    昵称：华佗后裔    用户ID：454151541</span>
+                            <span class="sec-top-right">申请时间：2015-06-08 15:23</span>
+                        </div>
+                        <div class="bottom">
+                            <!-- 第一个 开始-->
+                            <div class="bottom-wrap">
+                                <div class="bottom_title">
+                                    基本资料:
+                                </div>
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group">
+                                            <label class="form_left">认证类型：</label>
+                                            <input type="radio" value="doctor" name="identifyType" checked="checked"><span
+                                                class="idenWord">医生</span>
+                                            <input type="radio" value="hushi" name="identifyType"><span
+                                                class="idenWord">护士</span>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">真实姓名：</label>
+                                            <input type="text" class="form_right" placeholder="华佗后裔">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">身份证号：</label>
+                                            <input type="text" class="form_right" placeholder="13222315694223255">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">手机号码：</label>
+                                            <input type="text" class="form_right" placeholder="13693240516">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">QQ：</label>
+                                            <input type="text" class="form_right" placeholder="272693215">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">性别：</label>
+                                            <input type="radio" value="boy" name="sex" checked="checked"><span
+                                                class="idenWord">男</span>
+                                            <input type="radio" value="girl" name="sex"><span class="idenWord">女</span>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">出生年月：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="">1990年</option>
+                                                <option value="">1989年</option>
+                                                <option value="">1988年</option>
+                                                <option value="">1987年</option>
+                                                <option value="">1986年</option>
+                                                <option value="">1985年</option>
+                                                <option value="">1984年</option>
+                                                <option value="">1983年</option>
+                                                <option value="">1982年</option>
+                                                <option value="">1981年</option>
+                                                <option value="">1980年</option>
+                                                <option value="">1979年</option>
+                                                <option value="" selected="selected">1978年</option>
+                                                <option value="">1977年</option>
+                                                <option value="">1976年</option>
+                                                <option value="">1975年</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="">01月</option>
+                                                <option value="">02月</option>
+                                                <option value="">03月</option>
+                                                <option value="">04月</option>
+                                                <option value="">05月</option>
+                                                <option value="">06月</option>
+                                                <option value="">07月</option>
+                                                <option value="">08月</option>
+                                                <option value="" selected="selected">09月</option>
+                                                <option value="">10月</option>
+                                                <option value="">11月</option>
+                                                <option value="">12月</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="">01日</option>
+                                                <option value="">02日</option>
+                                                <option value="">03日</option>
+                                                <option value="" selected="selected">04日</option>
+                                                <option value="">05日</option>
+                                                <option value="">06日</option>
+                                                <option value="">07日</option>
+                                                <option value="">08日</option>
+                                                <option value="">09日</option>
+                                                <option value="">10日</option>
+                                                <option value="">11日</option>
+                                                <option value="">12日</option>
+                                                <option value="">13日</option>
+                                                <option value="">14日</option>
+                                                <option value="">15日</option>
+                                                <option value="">16日</option>
+                                                <option value="">17日</option>
+                                                <option value="">18日</option>
+                                                <option value="">19日</option>
+                                                <option value="">20日</option>
+                                                <option value="">21日</option>
+                                                <option value="">22日</option>
+                                                <option value="">23日</option>
+                                                <option value="">24日</option>
+                                                <option value="">25日</option>
+                                                <option value="">26日</option>
+                                                <option value="">27日</option>
+                                                <option value="">28日</option>
+                                                <option value="">29日</option>
+                                                <option value="">30日</option>
+                                                <option value="">31日</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">籍贯：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="" selected="selected">北京</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="" selected="selected">北京</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">请选择</option>
+                                                <option value="" selected="selected">海淀</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">个人介绍：</label>
+                                        <textarea class="form_right3">
+                                        </textarea>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第二个 结束-->
+                            <!-- 第二个 开始-->
+                            <div class="bottom_wrap_second">
+                                <div class="bottom_title">
+                                    认证资料类型:
+                                </div>
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group">
+                                            <label class="form_left">医生类型：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">医师</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">医师</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">行业职称：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">其他</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">其他</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">所属医院：</label>
+                                            <input type="text" class="form_right" placeholder="北京华中医院">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">所在科室：</label>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">中医科</option>
+                                            </select>
+                                            <select class="form_right2" style="color: #878787;">
+                                                <option value="">中医综合科</option>
+                                            </select>
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">科室名称：</label>
+                                            <input type="text" class="form_right" placeholder="中医科">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">科室电话：</label>
+                                            <input type="text" class="form_right" placeholder="01066231452">
+                                        </div>
+                                        <div class="form_group">
+                                            <label class="form_left">擅长领域：</label>
+                                        <textarea class="form_right3">
+                                        </textarea>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第二个 结束-->
+                            <!-- 第三个 开始-->
+                            <div class="bottom-wrap">
+                                <div class="bottom_title">
+                                    图片/资料审核:
+                                </div>
+                                <div class="bottom_content">
+                                    <form action="">
+                                        <div class="form_group">
+                                            <label class="form_left">医生资格证编号：</label>
+                                            <input type="text" class="form_right" placeholder="2009212156181515165418748">
+                                        </div>
+                                        <div class="form_group clearFix">
+                                            <div class="upload_title"><label class="form_left">身份证：</label></div>
+                                            <div class="upload">
+                                                <div class="imgShow"></div>
+                                                <div class="uploadBtn">
+                                                    <input type="file" />
+                                                    <label>上传图片</label>
+                                                </div>
+                                            </div>
+                                            <div class="upload">
+                                                <div class="imgShow"></div>
+                                                <div class="uploadBtn">
+
+                                                    <input type="file" />
+                                                    <label>上传图片</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form_group clearFix">
+                                            <div class="upload_title"><label class="form_left">医生从业资格证：</label></div>
+                                            <div class="upload">
+                                                <div class="imgShow"></div>
+                                                <div class="uploadBtn">
+                                                    <input type="file" />
+                                                    <label>上传图片</label>
+                                                </div>
+                                            </div>
+                                            <div class="upload">
+                                                <div class="imgShow"></div>
+                                                <div class="uploadBtn">
+
+                                                    <input type="file" />
+                                                    <label>上传图片</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="form_group special">
+                                            <label class="form_left">状态：</label>
+                                            <input type="radio" value="waiting" name="status" checked="checked"><span
+                                                class="idenWord">等待审核</span>
+                                            <input type="radio" value="pass" name="status"><span
+                                                class="idenWord">通过</span>
+                                            <input type="radio" value="reject" name="status"><span
+                                                class="idenWord">拒绝</span>
+                                        </div>
+                                        <div class="form_group form_submit">
+                                           <button>保存</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- 第三个 结束-->
+
+                        </div>
+                    </div>
+                    <div class="table_copyright">
+                        <span>《医小护后台管理系统》由康知研发部支持@2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../public/js/jquery-1.7.2.js"></script>
+<script src="../public/js/mainTree.js"></script>
+</body>
+</html>

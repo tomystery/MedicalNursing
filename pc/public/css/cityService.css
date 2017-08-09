@@ -1,0 +1,240 @@
+/***banner css start ***/
+.banner{
+    background: url("../images/cityServiceBanner.png") center no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 404px;
+    position: relative;
+}
+.banner div{
+    position: absolute;
+    left: 160px;
+    color: #FFFFff;
+}
+.banner_word_top{
+    top: 90px;
+    font-size: 40px;
+}
+.banner_word_middle{
+    top: 160px;
+    font-size: 30px;
+}
+/***banner css end ***/
+/***content css start ***/
+.content{
+    width: 100%;
+    padding: 50px 0;
+}
+.content>div{
+    width: 80%;
+    margin: 0 auto;
+}
+.sec1{
+    padding: 30px;
+}
+.sec1_title{
+    text-align: center;
+    font-size: 40px;
+    color: #222222;
+    padding: 10px;
+}
+.sec1_word{
+    text-align: center;
+    width: 80%;
+    line-height: 28px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #818181;
+    font-size: 16px;
+}
+.sec2{
+    padding: 30px;
+    width: 100%;
+}
+.sec2_wrap{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+}
+.sec2_left{
+    float: left;
+    width: 48%;
+    margin-left: 90px;
+}
+.sec2_left .box{
+    margin: 20px 0;
+}
+
+.sec2_left .box_title .circleIcon{
+    width: 30px;
+    height: 30px;
+    background-position: 0 0;
+    background-size: 360% auto;
+    color: #FFFFff;
+}
+.sec2_left .box_title span{
+    color: #494949;
+    font-size: 20px;
+}
+.sec2_left .box_word{
+    margin: 10px 34px;
+    color: #818181;
+}
+.sec2_right{
+    float: left;
+    width: 20%;
+}
+.sec2_right i{
+    background: url("../images/cityServiceGirl.png") no-repeat;
+    background-size: 100% auto;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+}
+
+
+.sec3{
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.sec3_top{
+    font-size: 40px;
+    text-align: center;
+    color: #222222;
+    padding: 10px;
+}
+.sec3_middle{
+    text-align: center;
+    color: #818181;
+    font-size: 16px ;
+    padding: 15px;
+}
+.sec3_middle p{
+    margin: 10px 0;
+}
+.sec3_bottom{
+    display: -webkit-box;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sec3_bottom .img{
+    width: 300px;
+    height: 222px;
+}
+.sec3_bottom .box_img1{
+    background: url("../images/index_img1.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec3_bottom .box_img2{
+    background: url("../images/index_img2.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec3_bottom .box_img3{
+    background: url("../images/index_img3.png") no-repeat;
+    background-size: 100% auto;
+}
+.sec3 .box_title{
+    color: #2e2e2e;
+    font-size: 32px;
+}
+.sec3 .box_word{
+    color: #818181;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.sec3 .box_button{
+    margin: 0 auto;
+    width: 180px;
+    height:50px;
+    background-color: #1fbca9;
+    line-height:50px;
+    color: #f5fbfa;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+}
+.sec3 .box_line{
+    background: url("../images/line_shadow.png") no-repeat;
+    background-size: 100% auto;
+    width: 200px;
+    height: 30px;
+    margin: 50px auto 30px;
+}
+
+.sec4{
+    padding: 10px;
+    text-align: center;
+}
+.sec4_top{
+    font-size: 40px;
+    color: #222222;
+    padding: 10px;
+}
+.sec4_middle{
+    color: #818181;
+    font-size: 16px;
+    padding: 30px;
+}
+.sec4_bottom_top{
+    color: #818181;
+    font-size: 18px;
+    padding: 30px;
+}
+.sec4_bottom_middle span{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1fbca9;
+    color: #FFFFff;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius:30px;
+    margin: 0 10px;
+}
+.sec4_bottom_bottom{
+    color: #1fbca9;
+    font-size: 18px;
+    padding: 30px;
+}
+
+
+.sec5{
+    padding: 10px;
+}
+.sec5 .sec5_top{
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 50px;
+    margin: 40px 0;
+}
+.sec5 .sec5_middle p{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.sec5 .sec5_middle p:first-child{
+    color: #818181;
+    font-size: 16px;
+}
+.sec5 .sec5_middle p:last-child{
+    color: #818181;
+    font-size: 14px;
+}
+.sec5 .sec5_middle p:last-child span{
+    color: #1fbca9;
+}
+.sec5 .sec5_bottom{
+    text-align: center;
+    margin: 40px 0;
+}
+.sec5 .sec5_bottom i{
+    width: 230px;
+    height: 226px;
+    background: url('../images/ewm.png') no-repeat;
+    display: inline-block;
+}
+
+
+/***content css end ***/

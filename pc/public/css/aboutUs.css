@@ -1,0 +1,51 @@
+/***content css start ***/
+.content{
+    width: 100%;
+    padding: 10px 0;
+}
+.content>div{
+    width: 80%;
+    margin: 0 auto;
+}
+.sec1{
+    padding: 40px;
+}
+.sec1_title{
+    width:100%;
+    height: 50px;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px;
+    color: #929292;
+    font-size: 15px;
+}
+
+
+.sec1_left{
+    width: 15%;
+    float: left;
+    padding: 30px 20px;
+    color: #929292;
+ }
+.sec1_left ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.sec1_left .active{
+    color: #1fbca9;
+}
+.sec1_right{
+    width: 70%;
+    float: left;
+    padding:20px 0 0 90px;
+    border-left: 1px solid #e9e9e9;
+
+}
+.sec1_right_title{
+    color: #292a2a;
+    font-size: 18px;
+}
+.sec1_right_content{
+    margin: 30px 0;
+    color: #565656;
+    line-height: 30px;
+}
